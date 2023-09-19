@@ -1,0 +1,165 @@
+body{
+    background-image:url(image/backgroung.jpg);
+    background-repeat:repeat ;
+    text-align: center !important;
+    padding-top: 10px !important;
+    margin: 15px !important;
+}
+
+h1{
+    color: rgb(40, 90, 92);
+    text-shadow: 0px 0px 20px darksalmon, 0px 0px 10px #965858;
+    margin-bottom: 8%;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+h2{
+    margin-top: 50px !important;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#Additem{
+    background-color: rgb(165, 118, 118);
+    color: black;
+    border: 3px solid rgb(40, 90, 92);;
+    border-radius: 10px 0px 10px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    margin-right: 2px;
+    margin-left: 2px;
+    width: 130px;
+    
+}
+
+#Deleteall{
+    background-color: rgb(165, 118, 118);
+    color: black;
+    border: 3px solid rgb(40, 90, 92);;
+    border-radius: 0px 10px 0px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    margin-left: 2px;
+    width: 130px;
+}
+
+#Deleteall:hover{
+    background-color: red;
+    color: black;
+    font-weight: bolder;
+    border: 3px solid rgb(40, 90, 92);
+    border-radius: 10px 0px 10px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 130px;
+}
+
+#Additem:hover{
+    background-color: green;
+    color: black;
+    font-weight: bolder;
+    border: 3px solid rgb(40, 90, 92);
+    border-radius: 0px 10px 0px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 130px;
+}
+
+input{
+    width: 325px !important;
+    padding: 15px 8px 15px 8px;
+}
+
+input:focus{
+    width: 325px;
+    padding: 15px 8px 15px 8px;
+    border: 3px solid rgb(40, 90, 92) ;
+    box-shadow: 2px 2px 2px 2px rgb(40, 90, 92);
+}
+
+hr{
+    width: 500px;
+    background-color: rgb(40, 90, 92);
+}
+
+.inlinebttn{
+    background-color: rgb(165, 118, 118);
+    color: black;
+    border: 3px solid rgb(40, 90, 92);;
+    border-radius: 0px 10px 0px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    margin-left: 20px;
+    width: 100px;
+}
+
+/* .todo{
+    border: 6px solid black;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    width: 635px;
+    margin-left: 302px;
+    margin-right: 280px;
+} */
+
+.todo{
+    border: 5px solid red;
+    background-color: gray;
+    text-align: center !important;
+    margin-left: 315px; 
+    /* padding-bottom: 600px; */
+    /* margin-right:280px ;   */
+    width: 640px;
+}
+
+
+
+@media screen and (max-width: 1039px){ 
+.main{
+    width: 100%;
+    text-align: center;
+
+}
+.all{
+    margin-left: 0px; 
+    margin-right:0px ; 
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+}
+input{
+    width: 400px;
+}
+hr{
+    width: 100%;
+}
+.todo{
+    margin-left: 0px; 
+    margin-right:0px ;
+    width: 100%;  
+}
+body{
+    background-image: url(image/black.jpg);
+}
+} 
